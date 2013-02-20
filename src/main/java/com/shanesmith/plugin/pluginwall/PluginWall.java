@@ -46,9 +46,6 @@ public class PluginWall extends JavaPlugin implements Listener
     			// Try to get a reference to the requested plugin
     			Plugin plugin = getServer().getPluginManager().getPlugin(lines[1]);
     			
-    			// Get a reference to Sign Block
-    			//Sign sign = (Sign) block.getState();
-    			
     			// Update the Sign
     			if (plugin == null)
     			{
@@ -65,7 +62,7 @@ public class PluginWall extends JavaPlugin implements Listener
     				String version = plugin.getDescription().getVersion();
     				List<String> authors = plugin.getDescription().getAuthors();
     				String website = plugin.getDescription().getWebsite();
-    				if (website==null) website = "";
+    				if (website == null) website = "";
     				website = website.replace("http://www.", "");
     				website = website.replace("http://", "");
     				// Display those details
