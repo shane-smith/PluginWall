@@ -41,7 +41,7 @@ public class PluginWall extends JavaPlugin implements Listener
     		(lines[0].equalsIgnoreCase("[PLW]") || lines[0].equalsIgnoreCase("[PluginWall]") 
     		|| lines[0].equalsIgnoreCase("[Plugin]")) )
     	{
-    		if (block.getType().equals(Material.WALL_SIGN) || block.getType().equals(Material.SIGN))
+    		if (block.getType().equals(Material.WALL_SIGN))
     		{
     			// Try to get a reference to the requested plugin
     			Plugin plugin = getServer().getPluginManager().getPlugin(lines[1]);
@@ -68,7 +68,7 @@ public class PluginWall extends JavaPlugin implements Listener
     				// Display those details
     				ev.setLine(0, ChatColor.DARK_GREEN+plugin.getName());
     				ev.setLine(1, ChatColor.DARK_GREEN+version);
-    				ev.setLine(2, ChatColor.BLUE+website);
+    				ev.setLine(2, ChatColor.DARK_BLUE+website);
     				ev.setLine(3, ChatColor.WHITE+authors.get(0));
     			}
     		}
