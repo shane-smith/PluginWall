@@ -1,0 +1,13 @@
+author: leiger
+database: false
+description: "PluginWall is a lightweight plugin that allows you to easily list plugin info in-game using signs."
+main: com.shanesmith.plugin.pluginwall.PluginWall
+name: PluginWall
+startup: postworld
+url: http://www.mcleiger.com/
+version: '0.0.1'
+
+permissions:
+  PluginWall.create:
+    description: Allows a player to create PluginWall signs.
+    default: op
