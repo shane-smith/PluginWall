@@ -3,7 +3,7 @@
     <groupId>com.shanesmith.plugin.pluginwall</groupId>
     <artifactId>PluginWall</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <name>PluginWall</name>
     <url>http://dev.bukkit.org/server-mods/pluginwall/</url>
     <description>PluginWall does stuff.</description>

@@ -5,7 +5,7 @@ main: com.shanesmith.plugin.pluginwall.PluginWall
 name: PluginWall
 startup: postworld
 url: http://www.mcleiger.com/
-version: '0.1.0'
+version: '0.2.0'
 
 permissions:
   PluginWall.create:
